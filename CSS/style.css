@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    position: static;
+    display: flex;
+    padding: 1pc 2pc;
+    justify-content: space-between;
+    align-items: center;
+    background: url(Images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    color: rgb(73, 61, 9);
+    font-weight: 600;
+    font-size: 70px;
+    justify-content: center;
+    text-align: center;
+    padding: 5.10px;
+    margin-left: 30px;
+}
+.head{
+      color: rgb(61, 48, 2);
+       font-weight: 600;
+       font-size: 17px;
+       padding: 1.2px;
+}
+.logout a{
+   color: rgb(61, 48, 2);
+   text-decoration: none; 
+}
+.logout a:hover{
+   color:  rgb(99, 159, 187);
+}
+section{
+    padding: 10px 30px;
+   
+}
+
+.sort {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    background: url(Images/read.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 280px;
+    flex-wrap:wrap;
+    padding: 20px;
+    padding-left: 100px;
+}
+.sort a {
+    text-decoration: none;
+    color: rgb(211, 109, 101);  
+    font-size: 30px;
+    flex-direction: row;
+   
+}
+.sort a:hover{
+    color: rgb(99, 159, 187);
+    
+}
+.Home{
+    background-color: beige;
+    width: fit-content;
+    box-shadow:10px 5px 5px rgb(192, 32, 32) ;
+    border-radius: 45px;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.Home:hover{
+    transform: scale(1.1);
+}
+
+.biog {
+     background-color: beige;
+    width: fit-content;
+    box-shadow:10px 5px 5px rgb(143, 135, 135) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.biog:hover{
+    transform: scale(1.1);
+}
+.kid{
+     background-color: beige;
+    width: fit-content;
+    box-shadow:10px 5px 5px rgb(143, 135, 135) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.kid:hover{
+    transform: scale(1.1);
+}
+.novels {
+     background-color: beige;
+    width: fit-content;
+    box-shadow:10px 5px 5px rgb(143, 135, 135) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.novels:hover{
+    transform: scale(1.1);
+}
+.thinking {
+     background-color: beige;
+    width: fit-content;
+    box-shadow:10px 5px 5px rgb(143, 135, 135) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.thinking:hover{
+    transform: scale(1.1);
+}
+.freee{
+     background-color: beige;
+    width: fit-content;
+    box-shadow: 10px 5px 5px rgb(143, 135, 135) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 25px;
+    margin-left: 10px;
+    margin-bottom: 0%;
+     transition: 0.4s;
+}
+.freee:hover{
+    transform: scale(1.1);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(129, 23, 59);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 6px;
+}
+.books {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.books a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(129, 23, 59) ;
+    font-weight: bold;
+  
+
+}
+
+.books a:hover{
+    color: rgb(99, 159, 187);
+}
+.one {
+    background-color: beige;
+    width: 350.70px;
+    box-shadow:10px 5px 5px rgb(143, 135, 135);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+     transition: 0.7s;
+}
+.one:hover{
+    transform: scale(1.1);
+}  
+.name {
+    text-align: center;
+}
+.price{
+    color: rgb(129, 23, 59);
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+
+
+}
+.buy  {
+ text-align: center;  
+ background-color:rgb(50, 121, 93);
+ border-radius: 50px;
+ transition: 1s ease ;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.buy:hover{
+    transform: scale(1.1);
+}
+.icon a{
+color:beige;
+font-size: larger; 
+}  
+.icon a:hover{
+    color: rgb(99, 159, 187); ;
+}
+
+.links {
+    width: 100%;
+    min-height: 50vh; 
+    display: flex;
+    align-items: center;
+    background: url(Images/cover2.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+   
+} 
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+       
+}  
+.content :hover{ 
+    color: rgb(99, 159, 187);
+    transform: scale(1.1);
+}
+.content a {
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(129, 23, 59) ;
+    font-weight: bold;
+      
+}
+.call {
+    background-color: beige;
+    width: 110.100px;
+    box-shadow:10px 5px 5px rgb(143, 135, 135);
+    border-radius: 30px;
+    padding: 15px;
+    margin: 30px;
+    margin-bottom: 2px;
+    transition: 1s;
+    text-align: center;
+
+    
+}
+.who {
+    background-color: beige;
+    width: 100.100px;
+    box-shadow:10px 5px 5px rgb(143, 135, 135);
+    border-radius: 30px;
+    padding: 15px;
+    margin: 30px;
+    text-align: center;
+    transition: 1s;
+
+}
+ h6 {
+    color:rgb(129, 23, 59) ;
+    padding: 12px;
+    font-weight: bolder; 
+    font-size: 15px; 
+    display: flex;
+    justify-content: center;  
+}
+h6:hover{
+    color: black;
+}
+.info{
+    width: 100% ; 
+    flex-direction: row; 
+}
+.more-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  
+}
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: beige;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+    margin-bottom: 30px;
+    transition: 0.7s;
+    color: brown;
+    flex-wrap: wrap;
+}
+.add a{
+    text-decoration: none;
+    color: brown;
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.add a:hover{
+    color: rgb(99, 159, 187);
+}
+.about-book h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(129, 23, 59);
+    background-color: beige;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.about-book p{
+    font-size: 20px;
+    color: black;
+    background-color: beige;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+    letter-spacing: 0.6px;
+   
+}
+.table{
+    width: 100%;
+    display: flex;
+}
+table td{
+    padding: 2px;
+    background-color: beige;
+    border-spacing: 1px;
+    border: 1px ;
+    border-radius: 5px;
+    width: 40%;
+}
+body{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+        
+}
+table caption{
+    color: rgb(129, 23, 59);
+    font-size: 25px;
+    font-weight: 600;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 20px;
+    margin-left: 300px;
+    width: 40%;       
+}
+.merg{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0px;
+    flex-wrap: wrap;
+    width: 60%;
+    
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.contact1{
+    background-color: beige;
+    width: fit-content;
+    box-shadow: 10px 5px 5px rgb(143, 135, 135);
+    border-radius: 30px;
+    padding: 25px;
+    margin: 30px;
+    transition: 1s ease;
+}
+.contact1:hover{
+     transform: scale(1.1);
+}
+.icon1{
+    color:rgb(50, 121, 93);
+    font-size: 30px;
+    text-align: center;
+    transition: 1s ease;
+}
+.social-icons a{
+    color:rgb(50, 121, 93);
+    font-size: 30px;
+    text-align: center;
+    padding-right: 10px;
+
+}
+.social-icons:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    color: brown;
+    font-size: 20px;
+    font-weight: 400;
+}
+.paragragh p {
+    font-size: 25px;
+    font-weight: 300;
+    justify-content: center;
+    text-align: center;
+    background-color: beige;
+    width: fit-content;
+    box-shadow: 10px 5px 5px rgb(143, 135, 135);
+    border-radius: 30px;
+    padding: 40px;
+    margin: 30px;
+
+}
+@media (max-weight:1023px){
+       header{
+        padding:12px 20px ;
+        width: 50%;
+       }
+       .logo{
+        font-size: 20px;
+       }
+       section{
+        padding: 5px 15px ;
+       }
+       .title{
+        font-size: 15px;
+       }
+      .sort a{
+        font: size 10px;
+      }
+       .more-info{
+        width: 50%;
+       }
+       
+}
